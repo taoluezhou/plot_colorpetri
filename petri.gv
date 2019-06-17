@@ -1,0 +1,22 @@
+digraph petri{
+rankdir=BT
+P1[label=P1,shape=circle]
+P2[label=P2,shape=circle]
+P3[label=P3,shape=circle]
+P4[label=P4,shape=circle]
+P5[label=P5,shape=circle]
+T1[label=T1,shape=box]
+T2[label=T2,shape=box]
+T3[label=T3,shape=box]
+T4[label=T4,shape=box]
+P1->T1
+P2->T1
+P3->T2
+P3->T3
+P3->T4
+P4->T2
+T1->P3
+T2->P5
+T3->P5
+T4->P5
+}

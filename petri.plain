@@ -1,0 +1,21 @@
+graph 1 2.75 4.7332
+node P1 0.95833 0.28886 0.57773 0.57773 P1 solid circle black lightgrey
+node P2 1.7917 0.28886 0.57773 0.57773 P2 solid circle black lightgrey
+node P3 1.375 2.3666 0.57773 0.57773 P3 solid circle black lightgrey
+node P4 0.375 2.3666 0.57773 0.57773 P4 solid circle black lightgrey
+node P5 1.375 4.4443 0.57773 0.57773 P5 solid circle black lightgrey
+node T1 1.375 1.3277 0.75 0.5 T1 solid box black lightgrey
+node T2 0.375 3.4055 0.75 0.5 T2 solid box black lightgrey
+node T3 1.375 3.4055 0.75 0.5 T3 solid box black lightgrey
+node T4 2.375 3.4055 0.75 0.5 T4 solid box black lightgrey
+edge P1 T1 4 1.0678 0.56181 1.1146 0.67836 1.1699 0.81647 1.2207 0.94309 solid black
+edge P2 T1 4 1.6822 0.56181 1.6354 0.67836 1.5801 0.81647 1.5293 0.94309 solid black
+edge P3 T2 4 1.1726 2.5768 1.0406 2.714 0.86507 2.8963 0.71227 3.0551 solid black
+edge P3 T3 4 1.375 2.656 1.375 2.7657 1.375 2.8927 1.375 3.0105 solid black
+edge P3 T4 4 1.5774 2.5768 1.7094 2.714 1.8849 2.8963 2.0377 3.0551 solid black
+edge P4 T2 4 0.375 2.656 0.375 2.7657 0.375 2.8927 0.375 3.0105 solid black
+edge T1 P3 4 1.375 1.5792 1.375 1.6859 1.375 1.8134 1.375 1.9345 solid black
+edge T2 P5 4 0.61707 3.6569 0.75289 3.798 0.92368 3.9755 1.0687 4.1261 solid black
+edge T3 P5 4 1.375 3.6569 1.375 3.7637 1.375 3.8912 1.375 4.0122 solid black
+edge T4 P5 4 2.1329 3.6569 1.9971 3.798 1.8263 3.9755 1.6813 4.1261 solid black
+stop
